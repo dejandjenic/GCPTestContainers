@@ -1,0 +1,6 @@
+@GCPTestContainers_HostAddress = http://localhost:5263
+
+GET {{GCPTestContainers_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
